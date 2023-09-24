@@ -24,7 +24,7 @@ def difficulty_level():
 
 def game():
   print(logo)
-  greeting = print("Welcome to Guess The Number! \nI'm thinking of a number between 1 and 100.") 
+  print("Welcome to Guess The Number! \nI'm thinking of a number between 1 and 100.") 
   number = randint(1,100)
   
   turns = difficulty_level()
